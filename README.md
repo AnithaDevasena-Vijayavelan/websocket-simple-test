@@ -9,8 +9,13 @@ websocketd --port=8080 ./websocket-stub.sh
 ```
 
 # Client Example
+*(not necessary, only to troubleshoot the server)*
+
+Install NPM and nodejs
+
 ```
-node websocket-client.js
+sudo npm install ws
+nodejs websocket-client.js
 ```
 
 # Question
@@ -29,4 +34,4 @@ Can you customize the server logic to test a different scenario of your choice?
 
 ---
 
-Feel free to fork this repository commit your own changes.
+Feel free to fork this repository and commit your own changes.
